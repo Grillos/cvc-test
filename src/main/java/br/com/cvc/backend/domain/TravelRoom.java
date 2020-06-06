@@ -1,5 +1,7 @@
 package br.com.cvc.backend.domain;
 
+import java.math.BigDecimal;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,6 +16,8 @@ public class TravelRoom {
     private Long roomID;
 	
 	private String categoryName;
+	
+	private BigDecimal totalPrice;
 	
 	private TravelPrice priceDetail;
 	
