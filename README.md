@@ -1,4 +1,4 @@
-# Rest Api for clients petz
+# Rest Api for clients cvc
 
 # Pre requirements
 - java 8, docker, maven
