@@ -16,13 +16,10 @@ import lombok.NoArgsConstructor;
 public class HotelDto {
 	
 	public HotelDto(Hotel hotel) {
-		this.id = hotel.getId();
 		this.name = hotel.getName();
 		this.cityCode = hotel.getCityCode();
 		this.rooms = hotel.getRooms();
 	}
-
-	private Long id;
 	
 	private String name;
 	

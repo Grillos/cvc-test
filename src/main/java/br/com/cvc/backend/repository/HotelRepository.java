@@ -14,6 +14,9 @@ import br.com.cvc.backend.domain.Hotel;
 public interface HotelRepository {
 
 	@RequestMapping(method = RequestMethod.GET, value = "/hotels/avail/{id}", consumes = "application/json")
+	List<Hotel> findByCityId(@PathVariable("id") Long id);
+	
+	@RequestMapping(method = RequestMethod.GET, value = "/hotels/{id}", consumes = "application/json")
 	List<Hotel> findById(@PathVariable("id") Long id);
 	
 }
