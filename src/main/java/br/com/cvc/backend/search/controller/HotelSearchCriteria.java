@@ -14,10 +14,10 @@ import lombok.NoArgsConstructor;
 @ApiModel(description = "The basic informations about user", value = "User")
 public class HotelSearchCriteria {
 	
-	@ApiModelProperty(value = "The name for search ranking", required = false, position = 1, dataType = "string", example = "Robson grillo")
+	@ApiModelProperty(value = "The name for search user", required = false, position = 1, dataType = "string", example = "Robson grillo")
 	private String name;
 	
-	@ApiModelProperty(value = "The email for search ranking", required = false, position = 2, dataType = "string", example = "email@email.com.br")
+	@ApiModelProperty(value = "The email for search user", required = false, position = 2, dataType = "string", example = "email@email.com.br")
 	private String email;
 	
 
